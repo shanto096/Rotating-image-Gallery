@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotaing-image-Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <div class="flex justify-center">
+        <div class="img-container">
+            <span style="--i:0"> <img src="https://picsum.photos/id/237/200/300" alt=""></span>
+            <span style="--i:1"> <img src="https://picsum.photos/id/300/200/33" alt=""></span>
+            <span style="--i:2"> <img src="https://picsum.photos/200/300?grayscale" alt=""></span>
+            <span style="--i:3"> <img src="https://picsum.photos/seed/picsum/200/300" alt=""></span>
+            <span style="--i:4"> <img src="https://picsum.photos/200/300?grayscale" alt=""></span>
+            <span style="--i:5"> <img src="https://picsum.photos/seed/picsum/200/300" alt=""></span>
+            <span style="--i:6"> <img src="https://picsum.photos/seed/picsum/200/300" alt=""></span>
+            <span style="--i:7"> <img src="https://picsum.photos/200/300?grayscale" alt=""></span>
+            <span style="--i:8"> <img src="https://picsum.photos/seed/picsum/200/300" alt=""></span>
+            <span style="--i:9"> <img src="https://picsum.photos/seed/picsum/200/300" alt=""></span>
+           
+        </div>
+        
+    </div>
+    <div class="flex justify-center relative top-80">
+    <div class="grid grid-cols-2 gap-20">
+        <button id="prev" class="bg-white focus:bg-green-400 px-10 py-2 text-xl rounded font-bold focus:text-white">Prev</button>
+        <button id="next" class="bg-white focus:bg-green-400 px-10 py-2 text-xl rounded font-bold focus:text-white">Next</button>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
